@@ -89,7 +89,10 @@ class PredictiveAgent:
         purchase_date = order['purchase_date']
         
         # Total days the medicine should last
-        total_days_supply = quantity / dosage_per_day
+        if dosage_per_day > 0:
+            total_days_supply = quantity / dosage_per_day
+        else:
+            total_days_supply = 0
         
         # Days since purchase
         days_elapsed = (current_date - purchase_date).days

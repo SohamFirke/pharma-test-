@@ -170,7 +170,9 @@ Respond ONLY with valid JSON, no additional text:
                     return result
         
         # Try to match exact medicine names from database first
+        # Sort by length descending to match longest names first (e.g., "Paracetamol Extra" before "Paracetamol")
         all_medicines = Database.load_medicine_master()['medicine_name'].tolist()
+        all_medicines.sort(key=len, reverse=True)
         
         for medicine in all_medicines:
             if medicine.lower() in message_lower:

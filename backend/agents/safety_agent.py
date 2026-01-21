@@ -86,6 +86,9 @@ class SafetyAgent:
         # Simplified safety rules
         # In production, this would check against medicine-specific max daily dosages
         
+        if dosage_per_day <= 0:
+            return False, f"ERROR: Dosage must be at least 1 unit per day."
+
         if dosage_per_day > 10:
             return False, f"WARNING: Dosage of {dosage_per_day} units/day exceeds typical safe limits. Please consult a doctor."
         
