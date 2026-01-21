@@ -1,0 +1,24 @@
+user_id,medicine_name,quantity,dosage_per_day,purchase_date
+user001,Lisinopril,30,1,2026-01-05 10:30:00
+user001,Atorvastatin,30,1,2026-01-05 10:30:00
+user002,Metformin,60,2,2026-01-10 14:20:00
+user002,Paracetamol,20,1,2026-01-15 09:15:00
+user003,Cetirizine,30,1,2026-01-08 16:45:00
+user004,Amoxicillin,21,3,2026-01-12 11:00:00
+user005,Losartan,30,1,2026-01-03 08:30:00
+user005,Amlodipine,30,1,2026-01-03 08:30:00
+user006,Vitamin D,90,1,2025-12-20 13:00:00
+user007,Omeprazole,30,1,2026-01-18 10:00:00
+user008,Aspirin,90,1,2025-12-15 15:30:00
+user009,Gabapentin,90,3,2025-12-28 09:45:00
+user010,Insulin Glargine,10,1,2026-01-16 07:20:00
+user001,Multivitamin,90,1,2025-11-25 12:00:00
+user003,Ibuprofen,20,1,2026-01-19 14:30:00
+user011,Salbutamol Inhaler,1,2,2026-01-01 10:15:00
+user012,Cough Syrup,100,10,2026-01-17 16:00:00
+user013,Azithromycin,6,2,2026-01-14 11:30:00
+user014,Prednisone,15,1,2026-01-10 13:45:00
+user015,Dextromethorphan,200,20,2026-01-16 09:00:00
+user001,Paracetamol,20,1,2026-01-20 23:58:27.912074
+user001,Paracetamol,20,1,2026-01-21 00:17:10.740179
+user001,paracetamol,20,1,2026-01-21T13:48:56.379382

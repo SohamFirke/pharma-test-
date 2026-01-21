@@ -1,0 +1,21 @@
+medicine_name,unit_type,stock_level,prescription_required
+Paracetamol,tablet,69,False
+Ibuprofen,tablet,100,False
+Amoxicillin,capsule,50,True
+Lisinopril,tablet,80,True
+Metformin,tablet,120,True
+Atorvastatin,tablet,90,True
+Omeprazole,capsule,110,False
+Cetirizine,tablet,200,False
+Aspirin,tablet,180,False
+Cough Syrup,ml,500,False
+Salbutamol Inhaler,inhaler,30,True
+Vitamin D,tablet,250,False
+Multivitamin,tablet,300,False
+Insulin Glargine,vial,20,True
+Losartan,tablet,85,True
+Amlodipine,tablet,95,True
+Gabapentin,capsule,60,True
+Prednisone,tablet,40,True
+Azithromycin,tablet,35,True
+Dextromethorphan,syrup,150,False

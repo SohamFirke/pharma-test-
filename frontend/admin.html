@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - AI Pharmacy</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container admin-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">📊</span>
+                    <h1>Admin Dashboard</h1>
+                </div>
+                <div class="header-actions">
+                    <a href="/" class="btn-secondary">Back to Orders</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="admin-content">
+            <!-- Statistics Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📦</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="totalMedicines">-</div>
+                        <div class="stat-label">Total Medicines</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⚠️</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="lowStockCount">-</div>
+                        <div class="stat-label">Low Stock Items</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🤖</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="totalTraces">-</div>
+                        <div class="stat-label">Agent Actions</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💊</div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="prescriptionCount">-</div>
+                        <div class="stat-label">Prescription Required</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="inventory">Inventory</button>
+                <button class="tab-btn" data-tab="alerts">Alerts</button>
+                <button class="tab-btn" data-tab="traces">Agent Traces</button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Inventory Tab -->
+                <div class="tab-pane active" id="inventory-tab">
+                    <div class="section-header">
+                        <h2>Medicine Inventory</h2>
+                        <button id="refreshInventoryBtn" class="btn-secondary">Refresh</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Medicine Name</th>
+                                    <th>Unit Type</th>
+                                    <th>Stock Level</th>
+                                    <th>Prescription Required</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="inventoryTableBody">
+                                <tr>
+                                    <td colspan="5" class="loading">Loading inventory...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Alerts Tab -->
+                <div class="tab-pane" id="alerts-tab">
+                    <div class="section-header">
+                        <h2>System Alerts</h2>
+                        <button id="refreshAlertsTabBtn" class="btn-secondary">Refresh</button>
+                    </div>
+
+                    <div class="alerts-section">
+                        <h3>🔴 Low Stock Warnings</h3>
+                        <div id="lowStockAlerts" class="alert-list">
+                            <p class="loading">Loading...</p>
+                        </div>
+                    </div>
+
+                    <div class="alerts-section">
+                        <h3>🔔 Proactive Refill Predictions</h3>
+                        <div id="refillAlertsAdmin" class="alert-list">
+                            <p class="loading">Loading...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Traces Tab -->
+                <div class="tab-pane" id="traces-tab">
+                    <div class="section-header">
+                        <h2>Agent Decision Traces</h2>
+                        <button id="refreshTracesBtn" class="btn-secondary">Refresh</button>
+                    </div>
+                    <div class="traces-container" id="tracesContainer">
+                        <p class="loading">Loading traces...</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/admin.js"></script>
+</body>
+
+</html>
