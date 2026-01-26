@@ -1,0 +1,13 @@
+symptom,medicine_name,category,severity,disclaimer
+fever,Paracetamol,OTC,mild,Consult doctor if fever persists for more than 3 days or exceeds 103°F
+headache,Ibuprofen,OTC,mild,Avoid if allergic to NSAIDs. Do not exceed recommended dosage
+cold,Cetirizine,OTC,mild,May cause drowsiness. Avoid driving after taking
+allergy,Cetirizine,OTC,mild,May cause drowsiness. Avoid alcohol
+cough,Dextromethorphan,OTC,mild,Consult doctor if cough persists for more than 7 days
+sore throat,Aspirin,OTC,mild,Not suitable for children under 16. Take with food
+body ache,Ibuprofen,OTC,mild,Take with food. Avoid if you have stomach ulcers
+muscle pain,Ibuprofen,OTC,mild,Do not exceed recommended dosage
+runny nose,Cetirizine,OTC,mild,May cause drowsiness
+stomach ache,Omeprazole,OTC,moderate,Consult doctor if pain is severe or persists
+nausea,Omeprazole,OTC,moderate,Consult doctor if accompanied by severe pain
+indigestion,Omeprazole,OTC,mild,Take 30 minutes before meals

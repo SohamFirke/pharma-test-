@@ -1,0 +1,21 @@
+Dr. Sarah Williams, MD
+General Practitioner
+City Medical Center
+
+Patient: John Doe
+Date: 2026-01-21
+
+PRESCRIPTION
+
+1. Amoxicillin 500mg
+   Sig: Take 1 capsule twice daily for 7 days
+   
+2. Paracetamol 500mg
+   Sig: Take 1-2 tablets every 6 hours as needed for pain
+   (Duration: 10 days)
+
+3. Ibuprofen 400mg
+   Sig: Take 1 tablet 3 times daily for 5 days
+
+Signature: Dr. S. Williams
+License No: MD-12345

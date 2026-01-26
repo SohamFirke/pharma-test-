@@ -1,0 +1,5 @@
+timestamp,medicine_name,quantity_added,triggered_by,reason,admin_username,new_stock_level,previous_stock
+2026-01-26T15:19:42.186977,Paracetamol,5,ADMIN,stock is low ,admin,5,0.0
+2026-01-26T22:12:17.800392,Paracetamol,100,ADMIN,stock is low ,admin,102,2.0
+2026-01-26T22:44:58.483173,Ibuprofen,20,ADMIN,"refill
+",admin,37,17.0

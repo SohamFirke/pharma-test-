@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Pharmacy - Medicine Orders</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🏥</span>
+                    <h1>AI Pharmacy</h1>
+                </div>
+                <div class="header-actions">
+                    <a href="/prescription" class="btn-secondary">📋 Upload Prescription</a>
+                    <a href="/admin" class="btn-secondary">Admin Dashboard</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Chat Container -->
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h2>Order Medicine</h2>
+                    <p class="subtitle">Tell me what you need in natural language</p>
+                </div>
+
+                <!-- Messages Area -->
+                <div class="messages-area" id="messagesArea">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <p>👋 Hello! I'm your AI pharmacy assistant.</p>
+                            <p>You can order medicines by simply telling me what you need. For example:</p>
+                            <ul>
+                                <li>"I need paracetamol, 20 tablets"</li>
+                                <li>"Refill my BP tablets"</li>
+                                <li>"I want ibuprofen for 10 days"</li>
+                            </ul>
+                            <p>💡 <strong>Or upload a prescription!</strong> Click "📋 Upload Prescription" above to
+                                automatically extract medicines from your prescription image or PDF.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area">
+                    <div class="input-container">
+                        <input type="text" id="messageInput" placeholder="Type your medicine request..." autofocus>
+                        <button id="voiceBtn" class="voice-btn" title="Voice Input">
+                            🎤
+                        </button>
+                        <button id="sendBtn" class="send-btn">
+                            Send
+                        </button>
+                    </div>
+                    <div class="user-info">
+                        <label for="userIdInput">User ID:</label>
+                        <input type="text" id="userIdInput" value="user001" placeholder="Enter your user ID">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Panel: Refill Alerts -->
+            <div class="side-panel">
+                <div class="panel-header">
+                    <h3>🔔 Refill Alerts</h3>
+                    <button id="refreshAlertsBtn" class="btn-icon">↻</button>
+                </div>
+                <p style="font-size: 12px; color: #666; padding: 0 15px; margin-top: -5px;">
+                    Predictive reminders based on usage patterns
+                </p>
+                <div id="refillAlerts" class="alerts-container">
+                    <p class="loading">Loading alerts...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/app.js?v=2"></script>
+</body>
+
+</html>

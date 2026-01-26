@@ -1,0 +1,64 @@
+prescription_id,user_id,file_path,upload_date,status,ocr_text,parsed_medicines,safety_status,order_ids,trace_id
+rx_20260126_132936_0f0,user001,/Users/sohamfirke/Desktop/new project/data/prescriptions/uploads/rx_20260126_132936_0f0.png,2026-01-26T13:29:36.899726,rejected,"Powered by HealthPlix EMR. www.healthplix.com
+
+MHC13905 : MR.SHARAD PURUSHOTTAM FIRKE (55y, Male) - 8793846617
+
+Date : 18-Feb-2025
+
+Diagnosis: HYPOTHYROIDISM, HTN
+
+K
+
+Medicine Dose Timing - Freq. - Duration Qty
+1 TAB. THYROX 62.5 MCG 1-0-0 aareit Wet - acter - 2a 60
+‘Composition: THYROXINE 62.5 MCG
+2 TAB. BISONODE 5 MG 1-0-0 agar tae - attr - 2a 60
+Composition: BISOPROLOL 5 MG
+wat ear Sraorstae - eet - 2a 60
+
+3 TAB. PRAJITEL-CL 40 MG 0-0-1
+Composition: TELMISARTAN 40 MG + CILNIDIPIN 10 MG
+
+Next ","[{""medicine_name"": ""Thyroxine 62.5 mcg"", ""dosage"": ""1-0-0 aareit Wet - acter - 2a 60"", ""frequency_per_day"": null, ""duration_days"": null, ""quantity_calculated"": null}, {""medicine_name"": ""Bisoprolol 5 MG"", ""dosage"": ""agar tae - attr - 2a 60"", ""frequency_per_day"": 2, ""duration_days"": 60, ""quantity_calculated"": 120}, {""medicine_name"": ""Prajitel-CL 40 MG"", ""dosage"": ""0-0-1"", ""frequency_per_day"": null, ""duration_days"": null, ""quantity_calculated"": null}]",rejected,,rx_08934972
+rx_20260126_133101_3a7,user001,/Users/sohamfirke/Desktop/new project/data/prescriptions/uploads/rx_20260126_133101_3a7.png,2026-01-26T13:31:01.368894,rejected,"Powered by HealthPlix EMR. www.healthplix.com
+
+MHC13905 : MR.SHARAD PURUSHOTTAM FIRKE (55y, Male) - 8793846617
+
+Date : 18-Feb-2025
+
+Diagnosis: HYPOTHYROIDISM, HTN
+
+K
+
+Medicine Dose Timing - Freq. - Duration Qty
+1 TAB. THYROX 62.5 MCG 1-0-0 aareit Wet - acter - 2a 60
+‘Composition: THYROXINE 62.5 MCG
+2 TAB. BISONODE 5 MG 1-0-0 agar tae - attr - 2a 60
+Composition: BISOPROLOL 5 MG
+wat ear Sraorstae - eet - 2a 60
+
+3 TAB. PRAJITEL-CL 40 MG 0-0-1
+Composition: TELMISARTAN 40 MG + CILNIDIPIN 10 MG
+
+Next ","[{""medicine_name"": ""THYROXINE 62.5 MCG"", ""dosage"": ""1-0-0 aareit Wet - acter - 2a 60"", ""frequency_per_day"": 2, ""duration_days"": null, ""quantity_calculated"": null}, {""medicine_name"": ""BISOPROLOL 5 MG"", ""dosage"": ""agar tae - attr - 2a 60"", ""frequency_per_day"": 2, ""duration_days"": null, ""quantity_calculated"": null}, {""medicine_name"": ""TELMISARTAN 40 MG + CILNIDIPIN 10 MG"", ""dosage"": ""0-0-1"", ""frequency_per_day"": null, ""duration_days"": null, ""quantity_calculated"": null}]",rejected,,rx_8bf1253a
+rx_20260126_151819_a72,user001,/Users/sohamfirke/Desktop/new project/data/prescriptions/uploads/rx_20260126_151819_a72.png,2026-01-26T15:18:19.079127,rejected,"Powered by HealthPlix EMR. www.healthplix.com
+
+MHC13905 : MR.SHARAD PURUSHOTTAM FIRKE (55y, Male) - 8793846617
+
+Date : 18-Feb-2025
+
+Diagnosis: HYPOTHYROIDISM, HTN
+
+K
+
+Medicine Dose Timing - Freq. - Duration Qty
+1 TAB. THYROX 62.5 MCG 1-0-0 aareit Wet - acter - 2a 60
+‘Composition: THYROXINE 62.5 MCG
+2 TAB. BISONODE 5 MG 1-0-0 agar tae - attr - 2a 60
+Composition: BISOPROLOL 5 MG
+wat ear Sraorstae - eet - 2a 60
+
+3 TAB. PRAJITEL-CL 40 MG 0-0-1
+Composition: TELMISARTAN 40 MG + CILNIDIPIN 10 MG
+
+Next ","[{""medicine_name"": ""Thyroxine"", ""dosage"": ""62.5 MCG"", ""frequency_per_day"": 2, ""duration_days"": 60, ""quantity_calculated"": 120}, {""medicine_name"": ""Bisoprolol"", ""dosage"": ""5 MG"", ""frequency_per_day"": 2, ""duration_days"": 60, ""quantity_calculated"": 120}, {""medicine_name"": ""Prajitel-CL"", ""dosage"": ""Telmisartan 40 MG + Cilnidipin 10 MG"", ""frequency_per_day"": null, ""duration_days"": null, ""quantity_calculated"": null}]",rejected,,rx_0cf7954a
