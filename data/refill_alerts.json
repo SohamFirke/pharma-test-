@@ -1,12 +1,12 @@
 [
   {
     "medicine_name": "Ibuprofen",
-    "current_stock": 17,
+    "current_stock": 54,
     "threshold": 100,
-    "suggested_quantity": 183,
-    "severity": "CRITICAL",
-    "reason": "CRITICAL: Stock (17) is less than 50% of threshold (100). Immediate refill recommended.",
-    "timestamp": "2026-01-26T22:29:33.419569",
-    "alert_id": "alert_Ibuprofen_20260126222933"
+    "suggested_quantity": 146,
+    "severity": "LOW",
+    "reason": "LOW STOCK: Current stock (54) below threshold (100). Refill recommended.",
+    "timestamp": "2026-01-28T20:42:37.604448",
+    "alert_id": "alert_Ibuprofen_20260128204237"
   }
 ]

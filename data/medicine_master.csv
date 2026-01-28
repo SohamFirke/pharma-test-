@@ -1,5 +1,5 @@
 medicine_name,unit_type,stock_level,prescription_required,stock_threshold
-Paracetamol,tablet,81,False,50
+Paracetamol,tablet,70,False,50
 Ibuprofen,tablet,54,False,100
 Amoxicillin,capsule,50,True,40
 Lisinopril,tablet,80,True,60
